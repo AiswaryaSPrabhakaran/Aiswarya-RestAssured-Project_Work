@@ -1,0 +1,45 @@
+{
+  "Payload_Request": [
+    {
+      "id": 1,
+      "name": "Aiswarya",
+      "email": "abc@a.com",
+      "duration": "1 year",
+      "mode": "online"
+    },
+    {
+      "address": "abc",
+      "city": "Bangalore",
+      "username": "Ais",
+      "id": 2
+    },
+    {
+      "codes": [
+        "abc",
+        "xyz",
+        "cde"
+      ],
+      "address": "abc",
+      "city": "Bangalore",
+      "username": "Ais",
+      "tags": {
+        "name": "efg",
+        "id": 367,
+        "email": "abc@a.com"
+      },
+      "id": 3
+    },
+    {
+      "username": "Aiswarya",
+      "department": "IT",
+      "city": "Bangalore",
+      "id": 4
+    },
+    {
+      "username": "Aiswarya",
+      "department": "IT",
+      "city": "Bangalore",
+      "id": 5
+    }
+  ]
+}

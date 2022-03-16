@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10293" started-at="2022-03-15T12:50:22Z" finished-at="2022-03-15T12:50:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10293" started-at="2022-03-15T12:50:22Z" finished-at="2022-03-15T12:50:32Z">
+      <class name="Project_Work.ProjectWork_User">
+        <test-method status="PASS" signature="datatransfer(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="datatransfer" duration-ms="12" started-at="2022-03-15T12:50:22Z" finished-at="2022-03-15T12:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datatransfer -->
+        <test-method status="PASS" signature="CreateUser(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="CreateUser" duration-ms="4553" started-at="2022-03-15T12:50:22Z" depends-on-methods="Project_Work.ProjectWork_User.datatransfer" finished-at="2022-03-15T12:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="ModifyUser(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="ModifyUser" duration-ms="1700" started-at="2022-03-15T12:50:27Z" depends-on-methods="Project_Work.ProjectWork_User.CreateUser" finished-at="2022-03-15T12:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser -->
+        <test-method status="PASS" signature="UserLogin(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="UserLogin" duration-ms="1365" started-at="2022-03-15T12:50:28Z" depends-on-methods="Project_Work.ProjectWork_User.ModifyUser" finished-at="2022-03-15T12:50:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="PASS" signature="UserLogout(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="UserLogout" duration-ms="1320" started-at="2022-03-15T12:50:30Z" depends-on-methods="Project_Work.ProjectWork_User.UserLogin" finished-at="2022-03-15T12:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogout -->
+        <test-method status="PASS" signature="DeleteUser(org.testng.ITestContext)[pri:0, instance:Project_Work.ProjectWork_User@4690b489]" name="DeleteUser" duration-ms="1270" started-at="2022-03-15T12:50:31Z" depends-on-methods="Project_Work.ProjectWork_User.UserLogout" finished-at="2022-03-15T12:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+      </class> <!-- Project_Work.ProjectWork_User -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
